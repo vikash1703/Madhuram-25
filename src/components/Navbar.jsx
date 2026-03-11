@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import Madhuram from "/assets/image64.png";
+import Madhuram from "/assets/MadhuramLogo.png";
 import SlietLogo from "/assets/slietLogo.png";
 
 const Navbar = ({ bgColor }) => {
@@ -23,15 +23,15 @@ const Navbar = ({ bgColor }) => {
           { name: "Events", path: "/events" },
           { name: "Register", path: "/register" },
         ].map((item) => (
-          <li key={item.name} className="text-white font-normal text-base md:text-2xl cursor-pointer uppercase font-impact">
-            <Link to={item.path} className="hover:text-yellow-400 transition-colors">{item.name}</Link>
+          <li key={item.name} className="text-white font-normal brightness-150 text-base md:text-2xl cursor-pointer uppercase font-impact">
+            <Link to={item.path} className="hover:text-yellow-400 transition-colors" style={{color: "white", textShadow: "none", fontWeight: "600"}}>{item.name}</Link>
           </li>
         ))}
       </ul>
 
       {/* Right Logo */}
       <div className="hidden lg:block">
-        <img src={Madhuram} alt="Right Logo" className="w-full" />
+        <img src={Madhuram} alt="Right Logo" className="w-full" style={{mixBlendMode: "multiply", maxWidth: "150px"}} />
       </div>
     </nav>
   );

@@ -1,10 +1,10 @@
 import React from "react";
 import BgImage from "/assets/image244.png";
-import Director from "/assets/director-team.jpg";
-import MMSinha from "/assets/avatars/dean.jpg";
+import Director from "/assets/avatars/M.K Paswan Director.jpg";
+import MMSinha from "/assets/avatars/V.K Kukreja Dean(SW).jpeg";
 import Indra from "/assets/avatars/indraj.jpg";
-import Gurjinder from "/assets/gurjinder.jpeg";
-import Vivek from "/assets/avatars/vivek.jpeg";
+import Gurjinder from "/assets/avatars/Anshuka Bansal Vice Chairman.jpeg";
+import Vivek from "/assets/avatars/Sundram Shandilya.jpeg";
 
 const Team = () => {
   const members = [
